@@ -1,0 +1,22 @@
+:root {
+    --main-color: #fbfff1;
+}
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--main-color); 
+    margin: 0;
+}
+.header {
+    background-color: #3c3744;
+    padding: 24px;
+}
+
+.header-title {
+    color: var(--main-color);
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 4rem;
+}
